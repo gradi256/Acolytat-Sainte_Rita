@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Manrope',sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ************************************************ */
+/* ENTETE */
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* Logo */
+.Logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 90px;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+Nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav a {
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+}
+nav a:hover {
+    color:rgb(7, 7, 171);
+    text-decoration: underline;
+}
+.socialH {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.socialH a {
+    font-size: 1.5em;
+    color: black;
+}
+.socialH a:hover {
+    font-size: 2em;
+}
+/* ****************************************************************** */
+/* Main */
+main {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+}
+
+/* welcome */
+.welcome {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.welcomeMessage {
+    padding: 2em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.welcomeMessage h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+.welcomeMessage p {
+    font-size: 1.3em;
+    text-align: center;
+    font-style: italic;
+}
+.welcomeMessage a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(7, 7, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.welcomeMessage a:hover {
+    background-color: rgba(10, 10, 166, 0.792);
+    font-size: 1.1em;
+    border-radius: 25px;
+}
+.welcomeImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 50%;
+}
+.welcomeImg img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+img:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;   
+}
+
+/* pictures */
+.pictures {
+    /* margin: 5px 5px 5px 30px; */
+    box-shadow: rgb(215, 203, 203) 0px 54px 55px, rgba(215, 203, 203, 0.12) 0px -12px 30px, rgba(215, 203, 203, 0.12) 0px 4px 6px, rgba(215, 203, 203, 0.17) 0px 12px 13px, rgba(215, 203, 203, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+.pictures h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center;
+}
+.imgevenementrecent {
+    display: flex;
+    flex-direction: row;  
+    gap: 30px;  
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.contimg {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+.imgevenementrecent img {
+    width: 100%;
+    align-items: center;
+    border-radius: 30px;
+}
+
+/* footer */
+footer {
+    background-color: #cebcbc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.lien {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lien a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    margin: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.socialP {
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin: 1%;
+}
+.socialP a {
+    font-size: 1.5em;
+    color: black;
+}
+.socialP a:hover {
+    font-size: 2em;
+}
+.paragraphe {
+    margin-bottom: 1%;
+}
+.paragraphe p {
+    font-size: 1.2em;
+}
+
+/* icone au survol */
+
+.instagram:hover{
+    background: linear-gradient(#833ab4,#fd1d1d,#fcb045);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.youtube:hover {
+    background: linear-gradient(#e52d27,#b31217);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.tiktok:hover{
+    background: linear-gradient(#000000,#434343);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
