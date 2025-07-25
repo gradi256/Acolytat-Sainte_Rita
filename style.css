@@ -240,3 +240,64 @@ footer a:hover {
 
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    nav {
+        width: 100%;
+        height: auto;
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav a {
+        
+    }
+    .instagram {
+        background: linear-gradient(#833ab4,#fd1d1d,#fcb045);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .youtube {
+        background: linear-gradient(#e52d27,#b31217);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .tiktok {
+        background: linear-gradient(#000000,#434343);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .welcome {
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .welcomeMessage {
+        font-size: 0.5em;
+    }
+    .welcomeImg {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .welcomeImg img {
+        border-radius: 5px;
+        width: 100%;
+        height: auto;
+   }
+}
