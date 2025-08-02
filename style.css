@@ -161,12 +161,7 @@ img:hover{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.contimg {
-    display: flex;
-    align-items: center;
-    width: 20%;
-}
-.imgevenementrecent img {
+ img {
     width: 100%;
     align-items: center;
     border-radius: 30px;
@@ -317,17 +312,12 @@ footer a:hover {
         height: auto;
    }
    
-   .imgevenementrecent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    width: 100%;
+   .lien a {
+    font-size: 1em;
+    margin: 0;
    }
-   .contimg {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   .paragraphe {
+    font-size: 0.7em;
+    margin: 0;
    }
 }
