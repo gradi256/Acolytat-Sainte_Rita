@@ -300,6 +300,7 @@ footer a:hover {
         flex-direction: column-reverse;
     }
     .welcomeMessage {
+        margin-top: 10px;
         font-size:0.8em;
         padding: 0;
     }
@@ -308,6 +309,7 @@ footer a:hover {
         display: flex;
         text-align: center;
         justify-content: center;
+        margin: auto;
     }
     .welcomeImg img {
         border-radius: 5px;
