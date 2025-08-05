@@ -118,6 +118,7 @@ main {
     background-color: white;
     color: rgb(7, 7, 104);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 700;
 }
 .welcomeImg {
     display: flex;
@@ -141,6 +142,7 @@ main {
     padding-bottom: 60px;
     margin-bottom: 50px;
     flex-wrap: wrap;
+    position: relative;
 
 }
 .pictures h2 {
@@ -154,19 +156,61 @@ main {
 .galerie {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 250px 250px 250px;
-    gap: 15px;
-    padding: 10px;
+    grid-template-rows: 250px 250px;
+    gap: 25px;
+    padding: 30px;
 }
 .galerieimg  {
     border-radius: 10px;
+    position: relative;
 }
 .galerie img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
+.photo-hover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+    display: none;
+}
 
+.galerieimg:hover .photo-hover {
+    display: flex;
+}
+.subimtVoirplus a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(7, 7, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.subimtVoirplus a:hover {
+    background-color: white;
+    color: rgb(7, 7, 104);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 700;
+}
 /* footer */
 footer {
     background-color: #cebcbc;
