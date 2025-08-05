@@ -313,17 +313,17 @@ footer a:hover {
         align-items: center;
         justify-content: center;
     }
-    .instagram {
+    .instagram:hover {
         background: linear-gradient(#833ab4,#fd1d1d,#fcb045);
         -webkit-background-clip: text;
         color: transparent;
     }
-    .youtube {
+    .youtube:hover {
         background: linear-gradient(#e52d27,#b31217);
         -webkit-background-clip: text;
         color: transparent;
     }
-    .tiktok {
+    .tiktok:hover{
         background: linear-gradient(#000000,#434343);
         -webkit-background-clip: text;
         color: transparent;
