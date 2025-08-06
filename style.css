@@ -448,3 +448,26 @@ footer a:hover {
         justify-content: center;
     }
 }
+
+/* apropos */
+.apropos {
+    border-radius: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgb(186, 186, 230);
+    color: black;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.apropos h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #0d2f59;
+    font-size: 2em;
+}
+
