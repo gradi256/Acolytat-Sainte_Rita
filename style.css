@@ -439,4 +439,12 @@ footer a:hover {
     .formulairesection h2 {
         font-size: 1.5rem;
     }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
 }
