@@ -447,6 +447,16 @@ footer a:hover {
         align-items: center;
         justify-content: center;
     }
+    .apropos {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .galerieVoirPlus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /* apropos */
@@ -457,8 +467,8 @@ footer a:hover {
     background-color: rgb(186, 186, 230);
     color: black;
     padding: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -471,3 +481,24 @@ footer a:hover {
     font-size: 2em;
 }
 
+/* page galerie */
+.galerieVoirPlus {
+    box-shadow: rgb(215, 203, 203) 0px 54px 55px, rgba(215, 203, 203, 0.12) 0px -12px 30px, rgba(215, 203, 203, 0.12) 0px 4px 6px, rgba(215, 203, 203, 0.17) 0px 12px 13px, rgba(215, 203, 203, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.Picture-messe-45-ans {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+}
+.galerieVoirPlus img {
+    width: 250px;
+}
