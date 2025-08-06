@@ -394,7 +394,7 @@ footer a:hover {
 .formulairecontact {
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-right: 50px;
 }
 .formulairecontact label {
