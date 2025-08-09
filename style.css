@@ -451,12 +451,6 @@ footer a:hover {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .galerieVoirPlus {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 }
 
 /* apropos */
@@ -482,7 +476,8 @@ footer a:hover {
 }
 
 /* page galerie */
-.galerieVoirPlus {
+.galerie-45ans {
+    /* margin: 5px 5px 5px 30px; */
     box-shadow: rgb(215, 203, 203) 0px 54px 55px, rgba(215, 203, 203, 0.12) 0px -12px 30px, rgba(215, 203, 203, 0.12) 0px 4px 6px, rgba(215, 203, 203, 0.17) 0px 12px 13px, rgba(215, 203, 203, 0.09) 0px -3px 5px;
     border-radius: 20px;
     padding-top: 2px;
@@ -490,15 +485,26 @@ footer a:hover {
     margin-bottom: 50px;
     flex-wrap: wrap;
     position: relative;
+
 }
-.Picture-messe-45-ans {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px;
-    gap: 15px;
+.title45ans h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 3%;
+    margin-top: 3%;
     text-align: center;
-    padding: 20px;
+    color: rgb(11, 11, 113);
 }
-.galerieVoirPlus img {
-    width: 250px;
+/* galerie */
+.picture45ans {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    gap: 25px;
+    padding: 30px;
+}
+.picture45ans img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
