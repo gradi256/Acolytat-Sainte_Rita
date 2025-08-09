@@ -35,24 +35,24 @@ header {
 }
 
 /* Navigation */
-nav {
+.navHeader {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-Nav ul {
+.navHeader ul {
     list-style: none;
     display: flex;
     gap: 30px;
 }
-nav a {
+.navHeader a {
     color: #555;
     text-decoration: none;
     font-weight: 500;
     font-size: 1em;
 }
-nav a:hover {
+.navHeader a:hover {
     color:rgb(7, 7, 171);
     text-decoration: underline;
 }
@@ -289,11 +289,11 @@ footer a:hover {
         align-items: center;
         gap: 20px;
     }
-    nav {
+    .navHeader {
         width: 100%;
         height: auto;
     }
-    nav ul {
+    .navHeader ul {
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -530,4 +530,40 @@ footer a:hover {
         font-size: 1.3em;
         padding-top: 15px;
     }
+}
+
+.navGalerie {
+    width: 100%;
+}
+.navGalerie ul, 
+.navGalerie a {
+    list-style: none;
+    text-decoration: none;
+}
+.navGalerie ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px ;
+    padding-bottom: 20px;
+
+}
+.navGalerie a {
+    display: block;
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(11, 11, 113);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.navGalerie a:hover {
+    background: linear-gradient(90deg,#0575E6,#021B79);
+    color:yellow;
 }
