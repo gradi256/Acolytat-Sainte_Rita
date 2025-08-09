@@ -512,7 +512,7 @@ footer a:hover {
 .picture45ans {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px 250px;
     gap: 25px;
     padding: 30px;
 }
