@@ -104,7 +104,7 @@ main {
 .welcomeMessage a {
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: yellow;
     background-color: rgb(7, 7, 104);
     display: flex;
     justify-content: center;
@@ -193,7 +193,7 @@ main {
 .subimtVoirplus a {
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: yellow;
     background-color: rgb(7, 7, 104);
     display: flex;
     justify-content: center;
@@ -534,6 +534,16 @@ footer a:hover {
 
 .navGalerie {
     width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    .navGalerie {
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    
 }
 .navGalerie ul, 
 .navGalerie a {
@@ -555,15 +565,17 @@ footer a:hover {
     height: 40px;
     width: 300px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    color: rgb(11, 11, 113);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 700;
+    background: linear-gradient(90deg,#0575E6,#021B79);
+    color:yellow;
+
 }
 
 .navGalerie a:hover {
-    background: linear-gradient(90deg,#0575E6,#021B79);
-    color:yellow;
+    background: white;
+    color: rgb(11, 11, 113);
 }
